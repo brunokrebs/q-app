@@ -1,11 +1,11 @@
 import React, { Component } from "react";
+import {Route, withRouter} from 'react-router-dom';
 import NavBar from "./Components/NavBar/NavBar";
 import Question from "./Components/Question/Question";
 import Questions from "./Components/Questions/Questions";
 import Callback from './Callback';
 import NewQuestion from './Components/NewQuestion/NewQuestion';
 import SecuredRoute from './Components/SecuredRoute/SecuredRoute';
-import {Route, withRouter} from 'react-router-dom';
 import auth0Client from './Auth';
 
 
